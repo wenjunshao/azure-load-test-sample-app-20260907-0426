@@ -1,5 +1,5 @@
 name: Load test
-on: [workflow_dispatch]
+'on': [workflow_dispatch]
 permissions:
   id-token: write # Require write permission to Fetch an OIDC token.
     contents: read # This is required for actions/checkout
